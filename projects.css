@@ -1,11 +1,16 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(240, 240, 243);
+    display: flex;
+    background-image: linear-gradient(to right, #f0f0f3, #c8c8de);
 }
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: 10px;
+    font-style: oblique;
+    color: darkslategray;
 }
 
 .navbar {
@@ -53,7 +58,31 @@ footer{
     text-align: right;
 }
 
-iframe:active{
-    transform: scale(1.25);
+iframe{
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+iframe:hover{
+    transform: scale(0.90);
     opacity: 75%;
+}
+
+
+p{
+    text-align: left;
+    font-size: medium;
+    font-style: normal;
+}
+
+@media(max-width: 600px){
+    .navbar ul{
+        flex-direction: row;
+    }
+    .footer{
+        text-align: right;
+    }
 }

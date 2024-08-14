@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(240, 240, 243);
+    background-image: linear-gradient(to right, #f0f0f3, #c8c8de);
 }
 
 .navbar {
@@ -39,15 +40,13 @@ a:hover{
     color:cadetblue;
 }
 
-a:active{
-    color: slategray;
-}
+
+
 
 footer{
     font-size: 8pt;
     text-align: right;
 }
-
 
 
 .submit{
@@ -56,11 +55,19 @@ footer{
     font-size: medium;
     cursor: pointer;
     transition: background-color 0.5s ease;
+    color: darkslateblue;
+    background-color: whitesmoke;
 }
 
 .submit:hover{
     background: darkgrey;
+    color: darkred;
     
+}
+
+.submit:active{
+    color: darkolivegreen;
+    background-color: darkseagreen;
 }
 
 fieldset{

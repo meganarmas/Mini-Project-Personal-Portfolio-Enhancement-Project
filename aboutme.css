@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(240, 240, 243);
+    background-image: linear-gradient(to right, #f0f0f3, #c8c8de);
 }
 
 h2{
@@ -68,4 +69,13 @@ footer{
 img:hover{
     transform: scale(0.90);
     opacity: 75%;
+}
+
+@media(max-width: 600px){
+    .navbar ul{
+        flex-direction: row;
+    }
+    .footer{
+        text-align: right;
+    }
 }
