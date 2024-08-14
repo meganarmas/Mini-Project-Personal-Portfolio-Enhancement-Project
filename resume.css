@@ -6,15 +6,10 @@ body{
 
 .navbar {
     font-family: 'Times New Roman', Times, serif;
-    background-color: aliceblue;
-    padding: 0px;
-}
-
-
-.navbar {
     background-color: rgb(229, 238, 238);
     padding: 10px 20px;
 }
+
 
 .navbar ul{
     list-style-type: none;
@@ -49,15 +44,23 @@ footer{
     text-align: right;
 }
 
-h4{
-    text-align: center;
-    color: darkslategray;
-}
-
 h2{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin: 10px;
     color: black;
 }
+
+h4{
+    text-align: center;
+    color: darkslateblue
+}
+
+p{
+    text-wrap: wrap;
+    font-size: medium;
+}
+
 
 .intro{
     text-align: center;
@@ -68,6 +71,7 @@ ul{
     list-style: circle;
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(35, 52, 52);
 }
 
 table{

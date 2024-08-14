@@ -6,12 +6,6 @@ body{
 
 .navbar {
     font-family: 'Times New Roman', Times, serif;
-    background-color: aliceblue;
-    padding: 0px;
-}
-
-
-.navbar {
     background-color: rgb(229, 238, 238);
     padding: 10px 20px;
 }

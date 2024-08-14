@@ -4,6 +4,12 @@ body{
     background-image: linear-gradient(to right, #f0f0f3, #c8c8de);
 }
 
+.navbar {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(229, 238, 238);
+    padding: 10px 20px;
+}
+
 h2{
     text-align: center;
 }
@@ -20,17 +26,8 @@ p{
     font-size: medium;
 }
 
-.navbar {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: aliceblue;
-    padding: 0px;
-}
 
 
-.navbar {
-    background-color: rgb(229, 238, 238);
-    padding: 10px 20px;
-}
 
 .navbar ul{
     list-style-type: none;
